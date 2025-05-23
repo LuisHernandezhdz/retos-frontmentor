@@ -26,7 +26,7 @@
         align-items: center;
       }
       .card{
-        width: 15%;
+        width: 20%;
         padding: 15px;
         background-color: white;
         border-radius: 20px;
@@ -52,7 +52,16 @@
         font-weight: 400;
         color: hsl(216, 15%, 48%);
       }
-    </style>
+      @media (max-width:799px) {
+        .container{
+          border: 1px solid black;
+        }
+        .card{
+          width: 55%;
+        }
+      }
+      
+      </style>
 
 </head>
 <body>
